@@ -1,0 +1,22 @@
+<meta charset="UTF-8" />
+
+<script>
+  function pularLinha() {
+    document.write("<br>");
+  }
+
+  function mostra(geracoes) {
+    document.write(
+      "De 1.500 até o ano atual passou-se " + geracoes + " gerações."
+    );
+  }
+
+  var anoDescobrimentoBrasil = 1500;
+  var anoCorrente = 2020;
+  var idadeMediaPaisQuandoTemFilhos = 28;
+  var quantidadesDeGeracoes =
+    (anoCorrente - anoDescobrimentoBrasil) / idadeMediaPaisQuandoTemFilhos;
+
+  mostra(Math.round(quantidadesDeGeracoes));
+  pularLinha();
+</script>
