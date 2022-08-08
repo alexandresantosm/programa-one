@@ -118,3 +118,26 @@ tfoot td {
   font-size: 14px;
   opacity: 0.7;
 }
+
+@media screen and (max-width: 480px) {
+  main {
+    width: 100%;
+  }
+
+  form,
+  table,
+  form div,
+  fieldset {
+    width: 90%;
+    margin: 2em auto;
+  }
+
+  .input-padrao {
+    width: 90%;
+  }
+
+  .enviar {
+    width: 70%;
+    margin: 2em 10% 0 10%;
+  }
+}

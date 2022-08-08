@@ -42,3 +42,17 @@
   font-weight: bold;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 480px) {
+  main .produtos {
+    width: 90%;
+  }
+
+  main .produtos li {
+    width: 100%;
+  }
+
+  .produtos li:nth-child(2) {
+    margin: 2em 0 2em 0;
+  }
+}

@@ -93,3 +93,37 @@
   margin: 2em auto;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }
+
+@media screen and (max-width: 480px) {
+  .caixa,
+  .principal,
+  .mapa-conteudo,
+  .conteudo-beneficios,
+  .video {
+    width: auto;
+  }
+
+  .principal,
+  .conteudo-beneficios,
+  .video {
+    padding: 0 0.5em;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  .caixa nav {
+    position: static;
+  }
+
+  .lista-beneficios {
+    display: block;
+    width: 70%;
+    margin: 0 auto 1em auto;
+  }
+
+  .imagem-beneficios {
+    width: 100%;
+  }
+}
