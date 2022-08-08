@@ -22,9 +22,13 @@ form legend {
   margin: 0 0 10px;
 }
 
+.outline {
+  border: 2px solid rgba(81, 81, 81, 0.6);
+  border-radius: 4px;
+}
+
 .outline:hover,
 .outline:focus {
-  border: 2px solid black;
   outline: none;
 }
 

@@ -1,3 +1,9 @@
+body,
+select,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
 header {
   background: #bbbbbb;
   padding: 20px 0;
