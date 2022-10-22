@@ -8,6 +8,12 @@
   display: flex;
 }
 
+.map-list {
+  height: 16.25rem;
+  display: flex;
+  flex-flow: column wrap; /* shorthand { flex-direction: column; flex-wrap: wrap; }*/
+}
+
 .sponsors .container {
   display: flex;
   justify-content: space-between;
