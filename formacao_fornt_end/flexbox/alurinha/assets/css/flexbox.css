@@ -7,3 +7,23 @@
 .nav {
   display: flex;
 }
+
+.sponsors .container {
+  display: flex;
+  justify-content: space-between;
+}
+.sponsors-list {
+  width: 70%;
+  margin-right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact {
+  width: 25%;
+}
+
+.fieldset {
+  display: flex;
+}
