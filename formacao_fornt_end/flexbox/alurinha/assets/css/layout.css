@@ -1,0 +1,292 @@
+body {
+  background-color: #f2f5f7;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.container {
+  width: 94%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #ffffff;
+  padding: 1.25rem 0;
+}
+
+.title-header {
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 1.25rem;
+}
+
+.title-header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-link {
+  padding: 0.625rem;
+  margin-bottom: 0.625rem;
+  color: #9799a6;
+  background-color: #ffffff;
+  text-decoration: none;
+  transition: 0.5s;
+  display: block;
+  border-bottom: 1px solid #9799a6;
+}
+
+.content {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 0.625rem;
+  text-align: center;
+}
+
+.courses-link {
+  height: 6.25rem;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 1%;
+  transition: 0.3s;
+  box-shadow: 2px 2px 2px #cccccc;
+  position: relative;
+}
+
+.courses-link:hover {
+  box-shadow: 4px 4px 4px #cccccc;
+}
+
+.courses-link a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.courses-link a:before {
+  content: "";
+  display: block;
+  width: 3.125rem;
+  height: 3.125rem;
+  margin: 0.625rem auto;
+}
+
+.courses-link:nth-child(even) a:before {
+  background: url(../image/cube.svg) no-repeat;
+}
+
+.courses-link:nth-child(odd) a:before {
+  background: url(../image/coffee-cup.svg) no-repeat;
+}
+
+.video-about {
+  background-color: #5e9edc;
+  padding: 1.5625rem 0;
+}
+
+.video {
+  max-width: 100%;
+}
+
+.video-about .container {
+  color: #ffffff;
+}
+
+.about {
+  font-size: 1.3em;
+  line-height: 2;
+}
+
+.title-about {
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+.button-about {
+  border-radius: 0.5rem;
+  background-color: #ec6e5a;
+  display: block;
+  color: #ffffff;
+  border: none;
+  height: 3.125rem;
+  font-size: 0.8em;
+  outline: none;
+}
+
+.footer {
+  background-color: #324c64;
+  padding-top: 1.25rem;
+}
+
+.footer .subtitle {
+  color: #ffffff;
+}
+
+.map-link {
+  text-decoration: none;
+  color: #ffffff;
+  margin-top: 0.625rem;
+  font-size: 0.9em;
+}
+
+.map-list-title {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin: 0.9em 0;
+  padding: 0.2em 0 0.2em 0.3em; /* padding: top right bottom left; */
+}
+
+.map-list-title + .map-link {
+  margin-top: 0;
+}
+
+.title-backend {
+  color: #25d285;
+  border-left: 4px solid #25d285;
+}
+
+.title-frontend {
+  color: #5ec6f3;
+  border-left: 4px solid #5ec6f3;
+}
+
+.title-framework {
+  color: #ad85bf;
+  border-left: 4px solid #ad85bf;
+}
+
+.sponsors {
+  margin-top: 1.875rem;
+  background-color: #f2f5f7;
+  padding: 1.25rem 0;
+}
+
+.title-database {
+  color: #ec6e5a;
+  border-left: 4px solid #ec6e5a;
+}
+
+.contact {
+  margin-top: 1.25rem;
+  text-align: center;
+}
+
+.legend {
+  margin-bottom: 0.625rem;
+}
+
+.contact label[for="email"] {
+  font-weight: bold;
+  font-size: 0.875em;
+  color: #000000;
+  margin-bottom: 0.3125rem;
+  display: block;
+}
+
+.email {
+  border-top-left-radius: 0.875em;
+  border-bottom-left-radius: 0.875em;
+  padding: 0.625rem;
+}
+
+.submit {
+  border-top-right-radius: 0.875em;
+  border-bottom-right-radius: 0.875em;
+  background-color: #4dba7a;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.email,
+.submit {
+  outline: 0;
+  border: 1px solid #4dba7a;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 769px) {
+  .container {
+    width: 85%;
+  }
+
+  .subtitle {
+    text-align: left;
+  }
+
+  .nav-link {
+    border-radius: 0.3125rem;
+    border: 1px solid #9799a6;
+  }
+
+  .nav-link:hover {
+    color: #ffffff;
+    background-color: #9799a6;
+  }
+
+  .title-header {
+    margin: 0;
+  }
+
+  .nav {
+    width: auto;
+  }
+
+  .nav-link {
+    width: auto;
+    margin: 0;
+  }
+
+  .nav-link + .nav-link {
+    margin: 0 0 0 0.625rem;
+  }
+
+  .contact {
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .courses-link:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  .courses-link:nth-child(3n + 1) {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .courses-link {
+    margin: 1.333%;
+  }
+
+  .courses-link:nth-child(3n) {
+    margin-right: 1.333%;
+  }
+
+  .courses-link:nth-child(3n + 1) {
+    margin-left: 1.333%;
+  }
+
+  .courses-link:nth-child(4n) {
+    margin-right: 0;
+  }
+
+  .courses-link:nth-child(4n + 1) {
+    margin-left: 0;
+  }
+
+  .about {
+    margin-left: 1.5rem;
+  }
+}
