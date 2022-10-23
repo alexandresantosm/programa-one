@@ -8,6 +8,15 @@
   display: flex;
 }
 
+.courses-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.courses-link {
+  width: 23%;
+}
+
 .map-list {
   height: 16.25rem;
   display: flex;
