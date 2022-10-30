@@ -1,0 +1,48 @@
+@media screen and (max-width: 769px) {
+  .header .container {
+    flex-direction: column;
+  }
+
+  .nav {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-link-app {
+    order: -1;
+  }
+
+  .courses-content {
+    flex-direction: column;
+  }
+
+  .courses-link {
+    width: 100%;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  .button-about {
+    width: 100%;
+  }
+
+  .map-list {
+    height: auto;
+  }
+
+  .sponsors .container {
+    flex-direction: column;
+  }
+
+  .contact {
+    width: auto;
+    margin-inline: auto;
+  }
+
+  .legend {
+    margin-inline: auto;
+  }
+}
