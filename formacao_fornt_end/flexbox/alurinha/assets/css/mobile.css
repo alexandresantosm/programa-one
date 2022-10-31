@@ -21,12 +21,8 @@
     width: 100%;
   }
 
-  .about {
-    text-align: center;
-  }
-
-  .button-about {
-    width: 100%;
+  .video-about .container {
+    flex-direction: column;
   }
 
   .map-list {

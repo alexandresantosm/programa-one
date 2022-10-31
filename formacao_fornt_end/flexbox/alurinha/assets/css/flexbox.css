@@ -8,6 +8,25 @@
   display: flex;
 }
 
+.video-about .container {
+  display: flex;
+}
+
+.video {
+  flex-grow: 10;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.list {
+  flex-grow: 1;
+}
+
 .courses-content {
   display: flex;
   flex-wrap: wrap;
