@@ -1,0 +1,42 @@
+.header {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 1rem;
+  background-color: black;
+  color: white;
+}
+
+.menu-list-item {
+  width: 35vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 10vw;
+  margin: 5px;
+  padding: 5px;
+}
+
+.card p {
+  font-size: 1.2em;
+}
+
+.card-info {
+  background-color: orange;
+}
+
+.legend-image {
+  width: 50px;
+  font-size: 0.1rem;
+}
+
+.card-promo {
+  background-color: red;
+}
+
+.card-new {
+  background-color: green;
+}
