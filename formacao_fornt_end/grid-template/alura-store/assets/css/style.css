@@ -1,0 +1,16 @@
+.app {
+  background: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  border: 1px solid #00cc99;
+}
+
+.main {
+  border: 1px solid #ff8080;
+}
+
+.footer {
+  border: 1px solid #0099ff;
+}
