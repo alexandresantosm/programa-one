@@ -10,11 +10,31 @@
     <link href="./assets/css/normalize.css" rel="stylesheet" />
     <link href="./assets/css/reset.css" rel="stylesheet" />
     <link href="./assets/css/style.css" rel="stylesheet" />
+    <link href="./assets/css/menu.css" rel="stylesheet" />
     <link href="./assets/css/highlights.css" rel="stylesheet" />
     <link href="./assets/css/populars.css" rel="stylesheet" />
   </head>
   <body class="app">
-    <header class="header">Cabeçalho</header>
+    <header class="header">
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link active" href="#">
+              <i class="fas fa-home"></i>
+              Início
+            </a>
+            <a class="menu__link" href="##populars-apps">
+              <i class="fas fa-mobile-alt"></i>
+              Aplicativos
+            </a>
+            <a class="menu__link" href="#populars-games">
+              <i class="fas fa-gamepad"></i>
+              Jogos
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
     <main class="main">
       <section class="highlights">
@@ -36,7 +56,7 @@
         <div class="categories__highlights">
           <ul class="categories__highlights___list">
             <li class="categories__highlights___item">
-              <a class="categories__highlights___link" href="#populars-app">
+              <a class="categories__highlights___link" href="##populars-apps">
                 <i
                   class="categories__highlights___icone fab fa-buromobelexperte"
                 ></i>
@@ -66,7 +86,7 @@
       </section>
 
       <section class="populars">
-        <div class="populars__items" id="populars-app">
+        <div class="populars__items" id="#populars-apps">
           <div class="populars__info">
             <div class="populars__header">
               <h4 class="populars__title">

@@ -4,6 +4,10 @@
   --footer-height: auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .app {
   display: grid;
   grid-template-areas:
@@ -15,11 +19,18 @@
     var(--header-height)
     var(--main-height)
     var(--footer-height);
-  background: #f1f1f1;
+  background-color: #f1f1f1;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
+  width: 100%;
+  height: var(--header-height);
+  position: fixed;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
   grid-area: header;
 }
 
