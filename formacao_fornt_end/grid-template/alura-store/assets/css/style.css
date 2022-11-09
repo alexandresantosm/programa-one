@@ -40,8 +40,12 @@ html {
     "highlights"
     "populars";
   grid-area: main;
+  padding: 0 2rem;
 }
 
 .footer {
+  background-color: #fdfdfd;
+  color: #808080;
+  text-align: center;
   grid-area: footer;
 }
