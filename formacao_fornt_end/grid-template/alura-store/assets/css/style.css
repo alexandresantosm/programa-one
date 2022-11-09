@@ -21,15 +21,16 @@
 
 .header {
   grid-area: header;
-  border: 1px solid #00cc99;
 }
 
 .main {
+  display: grid;
+  grid-template-areas:
+    "highlights"
+    "populars";
   grid-area: main;
-  border: 1px solid #ff8080;
 }
 
 .footer {
   grid-area: footer;
-  border: 1px solid #0099ff;
 }
