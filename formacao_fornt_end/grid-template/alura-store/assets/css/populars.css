@@ -14,11 +14,6 @@
   font-weight: 500;
 }
 
-.populars__icon,
-.view__icon {
-  margin-right: 0.25rem;
-}
-
 .populars__button {
   background-color: transparent;
   border: none;
@@ -29,17 +24,14 @@
   display: flex;
   flex-wrap: wrap;
   padding: 1rem 0;
-  justify-content: space-between;
 }
 
 .populars__card {
-  width: calc(20% - 1rem);
   display: grid;
   grid-template-areas:
     "card-image"
     "card-body";
   grid-template-columns: 100%;
-  grid-template-rows: 173px auto;
   background-color: #fdfdfd;
 }
 

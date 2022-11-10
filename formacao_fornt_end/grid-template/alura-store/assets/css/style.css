@@ -26,12 +26,20 @@ html {
 .header {
   width: 100%;
   height: var(--header-height);
-  position: fixed;
-  background-color: #f1f1f1;
   display: flex;
   align-items: center;
   padding: 0 2rem;
   grid-area: header;
+  transition: all 0.5s;
+}
+
+.fixed {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.fixed .menu__link {
+  color: #f1f1f1;
 }
 
 .main {
