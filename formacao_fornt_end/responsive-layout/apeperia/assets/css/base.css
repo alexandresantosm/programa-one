@@ -1,0 +1,19 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  padding-inline: 6%;
+}
+
+.button {
+  text-align: center;
+
+  display: block;
+  width: 100%;
+  max-width: 750px;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
