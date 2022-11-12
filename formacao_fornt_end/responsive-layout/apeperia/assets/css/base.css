@@ -1,3 +1,24 @@
+:root {
+  --white: #fff;
+  --light-blue: #dfe3e5;
+  --strong-red: #b72e2e;
+  --dark-gray: #4f4c4c;
+  --light-gray: #f7f4f4;
+  --medium-gray: #d9d9d9;
+
+  --font-link: #0084ff;
+  --font-gray: #666;
+  --mobile-header-border: #103d4a;
+  --bg-footer: #333;
+  --bg-mobile-headline: #00161c;
+
+  --card-plan-start: #56ccf2;
+  --card-plan-ultra: #b04cd9;
+  --card-plan-mega: #e33b3b;
+
+  --montserrat: "Montserrat", sans-serif;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
