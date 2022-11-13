@@ -1,0 +1,27 @@
+.differentials {
+  padding-block: 3.5rem;
+}
+
+.differentials__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.differentials__item {
+  max-width: 350px;
+  box-sizing: border-box;
+  padding: 2rem 0 2rem 5rem;
+}
+
+.differentials__item-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--dark-gray);
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.differentials__item-description {
+  line-height: normal;
+}
