@@ -1,0 +1,38 @@
+.institutional {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 2rem;
+  text-align: center;
+  color: var(--font-gray);
+}
+
+.institutional__description {
+  margin-bottom: 2rem;
+}
+
+.institutional__address {
+  font-size: 1.5rem;
+  line-height: normal;
+  margin-bottom: 2rem;
+}
+
+.institutional__contact {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-top: 2rem;
+}
+
+.institutional__contact-telephone {
+  line-height: normal;
+}
+
+.institutional__contact-email {
+  display: block;
+  text-decoration: underline;
+  color: var(--font-link);
+}
+
+.institutional__video {
+  width: 100vw;
+}
