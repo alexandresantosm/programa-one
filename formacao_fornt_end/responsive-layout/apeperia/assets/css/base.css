@@ -38,3 +38,13 @@ body {
   border: 1px solid #fff;
   border-radius: 5px;
 }
+
+.title {
+  font-family: var(--montserrat);
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--dark-gray);
+  margin-bottom: 2rem;
+}

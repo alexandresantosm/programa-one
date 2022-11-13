@@ -4,16 +4,6 @@
   padding-bottom: 2rem;
 }
 
-.highlights__title {
-  font-family: var(--montserrat);
-  font-weight: 700;
-  font-size: 1.5rem;
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--dark-gray);
-  margin-bottom: 2rem;
-}
-
 .highlights__panel {
   display: flex;
   flex-direction: column;

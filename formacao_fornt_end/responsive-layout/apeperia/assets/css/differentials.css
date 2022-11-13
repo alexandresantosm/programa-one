@@ -29,10 +29,8 @@
 }
 
 .differentials__item-title {
-  font-weight: 700;
-  font-size: 1.2rem;
-  color: var(--dark-gray);
-  text-transform: uppercase;
+  font-family: inherit;
+  text-align: inherit;
   margin-bottom: 1.5rem;
 }
 
