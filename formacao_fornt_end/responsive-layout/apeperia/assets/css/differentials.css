@@ -37,3 +37,13 @@
 .differentials__item-description {
   line-height: normal;
 }
+
+@media screen and (min-width: 1024px) {
+  .differentials {
+    background-color: var(--light-gray);
+  }
+
+  .differentials__list {
+    justify-content: space-around;
+  }
+}

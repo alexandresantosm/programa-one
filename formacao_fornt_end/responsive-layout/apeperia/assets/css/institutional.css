@@ -46,3 +46,25 @@
     width: 100%;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .institutional__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .institutional__info {
+    text-align: initial;
+    margin-bottom: 0;
+  }
+
+  .institutional__address {
+    margin-bottom: 0;
+  }
+
+  .institutional__video {
+    width: 350px;
+  }
+}

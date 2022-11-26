@@ -27,3 +27,27 @@
 .about__image {
   display: none;
 }
+
+@media screen and (min-width: 1024px) {
+  .about {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about__content {
+    max-width: 520px;
+  }
+
+  .about__content .title {
+    text-align: initial;
+  }
+
+  .about__content--divider {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--medium-gray);
+  }
+
+  .about__image {
+    display: block;
+  }
+}

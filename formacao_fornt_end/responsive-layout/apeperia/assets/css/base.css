@@ -48,3 +48,9 @@ body {
   color: var(--dark-gray);
   margin-bottom: 2rem;
 }
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding-inline: calc((100% - 940px) / 2);
+  }
+}

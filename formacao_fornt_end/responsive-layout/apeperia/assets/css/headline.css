@@ -37,3 +37,14 @@
     max-width: 600px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .headline {
+    background-image: url("../images/jpg/bg-intro.jpg");
+    background-size: cover;
+  }
+  .headline__title {
+    font-size: 3.25rem;
+    padding: 2rem;
+  }
+}
