@@ -36,3 +36,13 @@
 .institutional__video {
   width: 100vw;
 }
+
+@media screen and (min-width: 768px) {
+  .institutional__contact-email {
+    display: inline;
+  }
+
+  .institutional__video {
+    width: 100%;
+  }
+}
