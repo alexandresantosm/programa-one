@@ -1,3 +1,7 @@
+.nav__menu {
+  height: var(--menu-height);
+}
+
 .menu__list {
   display: flex;
   align-items: center;

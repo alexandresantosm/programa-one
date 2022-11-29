@@ -1,0 +1,23 @@
+.headline {
+  width: 100vw;
+  height: calc(100vh - var(--menu-height));
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.headline__title {
+  font-weight: 400;
+  font-family: var(--secondary-font);
+  font-size: 3.5rem;
+  line-height: 5rem;
+  color: white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+  text-align: center;
+}
