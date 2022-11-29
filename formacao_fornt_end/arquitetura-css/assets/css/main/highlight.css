@@ -1,0 +1,15 @@
+.highlight {
+  width: 100%;
+  margin-block: 2rem;
+}
+
+.highlight__title {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  color: var(--red-700);
+}
+
+.highlight__description {
+  font-weight: 300;
+  color: var(--gray-600);
+}
