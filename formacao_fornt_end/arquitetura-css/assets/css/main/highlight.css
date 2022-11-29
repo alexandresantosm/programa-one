@@ -4,6 +4,7 @@
 }
 
 .highlight__title {
+  margin-bottom: 0.5rem;
   font-family: var(--secondary-font);
   font-weight: 400;
   color: var(--red-700);
@@ -12,4 +13,31 @@
 .highlight__description {
   font-weight: 300;
   color: var(--gray-600);
+}
+
+@media screen and (min-width: 768px) {
+  .highlight__title {
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+  }
+
+  .highlight__description {
+    margin: auto;
+    max-width: 600px;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .highlight__title {
+    font-size: 3rem;
+    line-height: 5.5rem;
+  }
+
+  .highlight__description {
+    max-width: 990px;
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
 }
