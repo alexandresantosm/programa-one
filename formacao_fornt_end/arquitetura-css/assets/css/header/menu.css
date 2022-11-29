@@ -1,0 +1,20 @@
+.menu__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu__item {
+  display: inline-block;
+}
+
+.menu__link {
+  text-decoration: none;
+  text-transform: lowercase;
+  color: var(--gray-600);
+}
+
+.active {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.8);
+}
